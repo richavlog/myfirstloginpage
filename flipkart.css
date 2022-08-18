@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.f1 {
+    height: 8%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+}
+
+.f2 {
+    color: aliceblue;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+.f3 {
+    color: aliceblue;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.f4 {
+    color: yellow;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.f5 {
+    margin: 50px auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 300px;
+    width: 150px;
+    height: 40px;
+    padding: 5px 16px;
+}
+
+button {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 900px;
+    padding: 5px 16px;
+    border: none;
+    background: white;
+    color: black;
+    font-size: 14px;
+}
+
+button:hover {
+    background: yellow;
+    transition: 0.5s;
+}
+
+.f6 {
+    position: absolute;
+    margin-left: 1100px;
+    color: aliceblue;
+    margin-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.f7 {
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+.f8 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 1380px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+.f9 {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 70px;
+}
