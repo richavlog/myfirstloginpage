@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centered{
+    font-size: 40px;
+}
+
+.card{
+    margin-top: 30px;
+}
+body{
+    background-color: green;
+}
+.card-deck{
+     position: relative;
+     height: 300px;
+}
