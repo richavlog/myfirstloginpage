@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistration form</title>
+
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        body{
+            background-image: url(pg5.jpg);
+        }
+        #form{
+            background-color: #84e184;
+            min-height: 700px;
+            padding: 10px 40px 40px 40px;
+        }
+        .registration{
+            font-size: 55px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             font-weight: 700;
+             border-bottom-style: ridge;
+            
+        }
+          .text{
+            height: 43px;
+
+          }
+          label{
+            font-size: 18px;
+          }
+          .btn-primary{
+            border-radius: 0px;
+            padding: 10px;
+            width: 47%;
+            margin-top: 10px;
+          }
+          .btn-danger{
+            border-radius: 0px;
+            padding: 10px;
+            width: 47%;
+            margin-top: 10px;
+          }
+
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-2" id="form">
+                   <center><b class="registration">Registration Form</b></center>
+            <div class="from-group">
+                <label>UserName</label>
+                <input type="text" name="name" placeholder="Enter Username"
+                class="form-control text" >
+            </div>
+            <div class="from-group">
+                <label>Email</label>
+                <input type="email" name="Email" placeholder="Enter Email"
+                class="form-control text" >
+            </div>
+            <div class="from-group">
+                <label>Password</label>
+                <input type="password" name="Password" placeholder="Enter Password"
+                class="form-control text" >
+            </div>
+            <div class="from-group">
+                <label>Mobile Number</label>
+                <input type="number" name="Mobile Number" placeholder="Enter Mobile Number"
+                class="form-control text" >
+            </div>
+            <div class="from-group">
+                <label>Date Of Birth</label>
+                <input type="date" name="Date Of Birth" placeholder="Enter Date Of Birth"
+                class="form-control text" >
+            </div>
+            <div class="from-group">
+                <label>Select Gender</label>
+                <select class="form-control text">
+                   <option>Male</option>
+                   <option>Female</option>
+                </select>
+                <div class="form-group">
+                    <label>Address :</label>
+                    <textarea class="form-control" placeholder="Enter Address" rows="6"></textarea>
+                </div>
+                <div class="form-group">
+                   <input type="submit" class="btn btn-primary" value="Sumbit">
+                   <input type="reset" class="btn btn-danger" value="Reset">
+                </div>
+
+            </div>
+            
+            
+            
+                </div>
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
